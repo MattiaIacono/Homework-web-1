@@ -1,11 +1,12 @@
 body{
-background-color: mintcream;
+  background-color: greenyellow;
+  margin: auto;
+  overflow-x: hidden;
 }
 
 /* If you want the content centered horizontally and vertically */
 .n1 {
   top: -150px;
-  left: -40px;
   text-align: center;
   position: relative;
 }
@@ -20,8 +21,9 @@ background-color: mintcream;
 
 
 .contenitore-img{
+  height: 400px;
   margin-bottom: 15px;
-  background-image: url("https://steamcdn-a.akamaihd.net/steam/apps/374320/capsule_616x353.jpg?t=1553251330");
+  background-image: url("https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/052011/my_life_fiat_punto_advertising_copy.png?itok=E9VhuTn1");
   background-repeat: no-repeat;
   background-size: cover;
   }
@@ -43,46 +45,27 @@ background-color: mintcream;
 
 /* If you want the content centered horizontally and vertically */
 .movimento{
-  top: -150px;
-  left: -40px;
-  text-align: center;
+  left: 50px;
   position: relative;
+  margin-bottom: 100px;
 }
  
 /* Style the image inside the centered container, if needed */
 .movimento img {
   width: 550px;
-  text-align: center;
+  
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .movimento{
+    left: 5px;
+  }
 }
   
-/* If you want the content centered horizontally and vertically */
-.movimento2{
-top: -150px;
-left: 435px;
-text-align: center;
-position: relative;
-}
-
-/* Style the image inside the centered container, if needed */
-.movimento2{
-width:550px;
-text-align: center;
-} 
-
-
-/* If you want the content centered horizontally and vertically */
-.movimento3{
-  top: -150px;
-  left: -40px;
-  text-align: center;
-  position: relative;
-}
  
-/* Style the image inside the centered container, if needed */
-.movimento3 img {
-  width: 550px;
-  text-align: center;
-}
-                     
+
+               
   
                         
